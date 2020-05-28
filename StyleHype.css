@@ -1,0 +1,241 @@
+html,body { margin: 0px;
+    padding: 0px;
+    
+    
+    
+}
+.menu ul li {
+    background-color: #00a6ff;
+    color: black;
+   float: left;
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px; 
+    position: relative;
+    border-radius: 0px;
+    padding: 5px;
+    box-shadow: 0 5px 0 #004a75;
+      
+}
+.menu ul li:hover { 
+    background-color: #0090e3 ;
+    box-shadow:0 5px 0 #012940;}
+.menu ul li:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    
+}
+    
+    
+}    
+.menu ul{
+    padding: 0;
+    
+}        
+.menu ul ul {
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+label[For="bt_menu"]{
+    padding: 10px;
+    background-color: #00a6ff;
+    color: black;
+    font-family: "Arial";
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+   box-shadow: 0 5px 0 #004a75;     
+        
+        
+}
+#bt_menu{ margin: 0px;
+display: none;}
+@media {
+    #bt_menu:checked ~ .menu{
+        margin-left: 0px;
+    }
+    
+    .menu{
+        
+        margin-left: -100%;
+        transition: all .4s;
+    
+    }
+}
+
+.cabecalho{
+  text-align:center;
+  margin-top: 000px auto;
+  width: 600px;
+    height: 600px;
+    position: static;
+    overflow: hidden;
+}
+
+.titulohype{
+    text-align: center;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: black ;
+}
+
+#inicio {
+    text-align: center;
+    font-size: 40px;
+}
+#inicio1 {
+    text-align: center;
+    color: #00a6ff;
+    font-size: 60px;
+    text-shadow: 2px 2px 1px black;
+    }
+.slider {
+    margin: 200px auto;
+    width: 480px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.foto {
+    position: absolute;
+    opacity: 0;
+    animation-name: sliders;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;    
+}
+@keyframes sliders{
+    25%{
+        opacity: 1;
+        transform:scale(1.1,1.1);
+            
+    }
+    50%{
+        opacity: 0;
+        
+    }
+}
+.foto:nth-child(1){
+    
+}
+.foto:nth-child(2){
+    animation-delay: 5s;
+}
+.foto:nth-child(3){
+    animation-delay: 10s;
+}
+.foto:nth-child(4){
+    animation-delay: 15s;
+}
+label:hover[For="bt_menu"]{
+    background-color: #0090e3;
+    box-shadow: 3px 5px 0 #012940;
+    
+}
+label:active[For="bt_menu"]{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.div1{ 
+background-color: #00a6ff ;
+    padding: 10px;
+    margin-top: 0;
+    padding-top: 0;
+    top: 0;
+    font-size: 50px;
+    text-shadow: 2px 2px 1px #fff;
+    box-shadow: 0 5px 0 #004a75;
+    width: 90px;
+    height: 90px;
+   padding-right: 1500px;
+    display: inline-block;
+    
+
+}
+.div{
+position: absolute;
+    left: 747px;
+}
+
+#cursor{
+    cursor: pointer;
+}
+.Notebook{
+    text-align: center;
+    font-size: 50px;
+}
+.Notebook2{
+    font-size: 25px;
+    text-align:left;
+    margin-right: 50%;
+    margin-left: 2%;
+    
+}
+.Notebook3{
+    font-size: 22px;
+    font-weight: bold;
+          margin-left: 2%;
+}
+.NotebookImg{
+    margin-left: 60%;
+   
+    display: inline-block;
+    margin-bottom: 90%;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+ background-color: #00a6ff;
+    border-radius: 3px
+}
+.contact{
+    width: 100%; max-width: 500px;}
+.form{display: flex;
+flex-direction: column;
+   
+}
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #0090e3;
+    border-radius: 5px;
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 16px;
+background-color: #d1edff;
+}
+
+textarea {
+    height: 150px;
+}
+    
+.forms {
+    font-size: 22px;
+}
+
+.enviar{
+    border-bottom: none;
+   border-color:#0090e3; 
+    background-color:#00a6ff;
+    
+}
+.enviar:hover{ background-color: #0090e3;
+    cursor: pointer;
+    
+    
+}
+
+    
